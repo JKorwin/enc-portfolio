@@ -52,7 +52,7 @@ export default function Algebro() {
 
         <div className="mt-12 space-y-12">
           <div>
-            <h2 className="text-2xl font-bold mb-4 text-blue-700">
+            <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
               Interactive Learning
             </h2>
             <div className="rounded-lg overflow-hidden shadow-lg -mx-6 md:-mx-20 lg:-mx-40">
@@ -67,7 +67,7 @@ export default function Algebro() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-4 text-blue-700">
+            <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
               Guided Practice
             </h2>
             <div className="space-y-6">
@@ -93,7 +93,7 @@ export default function Algebro() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold mb-4 text-blue-700">
+            <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
               Progress Analytics
             </h2>
             <div className="rounded-lg overflow-hidden shadow-lg -mx-6 md:-mx-20 lg:-mx-40">

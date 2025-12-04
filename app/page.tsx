@@ -1,65 +1,93 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <article>
+      <h1 className="text-4xl font-bold mb-8 text-blue-700 text-center">
+        About Me
+      </h1>
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Hi, I'm Justin Korwin, a Computer Science student at the University of
+          Central Florida with a strong interest in full-stack web development,
+          software engineering, and education-focused technology. My coursework
+          includes programming fundamentals, object-oriented development,
+          database systems, and web technologies. These courses directly support
+          the technical skills I use in my projects.
+        </p>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          I currently work at Jimmy John's, where I have gained valuable
+          experience in time management, customer service, consistency, and
+          performing well in fast-paced environments. Balancing full-time work,
+          school, and independent development projects has strengthened my
+          discipline and ability to manage multiple priorities.
+        </p>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          I am also the founder and developer of Algebro, a middle-school math
+          learning platform with AI integration for teaching purposes and
+          currently being piloted in local classrooms. Through Algebro, I have
+          gained experience in product design, backend and frontend development,
+          database design, UX, and building tools that address real educational
+          challenges for students and teachers.
+        </p>
+
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold mb-6 text-blue-700">
+            Skills and Tools
+          </h2>
+
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold text-slate-800">Languages</h3>
+              <p className="text-lg text-slate-700">
+                JavaScript, TypeScript, Python, SQL, C
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-slate-800">
+                Frameworks and Libraries
+              </h3>
+              <p className="text-lg text-slate-700">
+                React, Next.js, Tailwind CSS
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-slate-800">
+                Tools and Platforms
+              </h3>
+              <p className="text-lg text-slate-700">
+                Supabase, Clerk, Git, GitHub, Vercel
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-slate-800">Other Skills</h3>
+              <p className="text-lg text-slate-700">
+                Technical writing, prompt engineering, curriculum structuring,
+                user experience design
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-slate-800">Soft Skills</h3>
+              <p className="text-lg text-slate-700">
+                Time management, teamwork, problem-solving, adaptability,
+                customer service
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed mt-8">
+          I enjoy creating meaningful applications, designing smooth user
+          experiences, and using technology to make learning more effective and
+          engaging. My long-term goal is to work in software development and
+          educational technology while continuing to build tools that help
+          students succeed.
+        </p>
+      </div>
+    </article>
   );
 }

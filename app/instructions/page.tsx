@@ -7,14 +7,16 @@ export default function Instructions() {
         Instructions Assignment
       </h1>
       <div className="space-y-6">
-        <p className="text-lg text-slate-700 leading-relaxed">
-          This document provides step-by-step instructions for making sandwiches
-          at Jimmy John's. The guide covers preparation techniques, ingredient
-          placement, and quality standards to ensure consistent and delicious
-          results. This assignment demonstrates how to clearly explain procedures
-          using a combination of text and images to make complex tasks easy to
-          follow.
-        </p>
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <p className="text-lg text-slate-700 leading-relaxed">
+            This document provides step-by-step instructions for making sandwiches
+            at Jimmy John's. The guide covers preparation techniques, ingredient
+            placement, and quality standards to ensure consistent and delicious
+            results. This assignment demonstrates how to clearly explain procedures
+            using a combination of text and images to make complex tasks easy to
+            follow.
+          </p>
+        </div>
 
         <div className="mt-8">
           <DocxViewer src="/JJ Sandwich making Instructions.docx" />

@@ -7,12 +7,14 @@ export default function Resume() {
         Resume & Cover Letter
       </h1>
       <div className="space-y-6">
-        <p className="text-lg text-slate-700 leading-relaxed">
-          Below are my professional resume and a cover letter example. These
-          documents showcase my ability to present qualifications, experience,
-          and skills in a clear and organized format suitable for professional
-          communication.
-        </p>
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <p className="text-lg text-slate-700 leading-relaxed">
+            Below are my professional resume and a cover letter example. These
+            documents showcase my ability to present qualifications, experience,
+            and skills in a clear and organized format suitable for professional
+            communication.
+          </p>
+        </div>
 
         <div className="mt-10">
           <h2 className="text-2xl font-bold mb-6 text-blue-700">Resume</h2>

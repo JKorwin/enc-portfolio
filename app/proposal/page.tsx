@@ -7,11 +7,13 @@ export default function Proposal() {
         Proposal Assignment
       </h1>
       <div className="space-y-6">
-        <p className="text-lg text-slate-700 leading-relaxed">
-          This document presents a formal project proposal. It demonstrates the
-          ability to structure and communicate ideas effectively, outlining
-          objectives, methods, and expected outcomes in a professional format.
-        </p>
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <p className="text-lg text-slate-700 leading-relaxed">
+            This document presents a formal project proposal. It demonstrates the
+            ability to structure and communicate ideas effectively, outlining
+            objectives, methods, and expected outcomes in a professional format.
+          </p>
+        </div>
 
         <div className="mt-8">
           <DocxViewer src="/Project Proposal.docx" />

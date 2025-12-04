@@ -7,48 +7,50 @@ export default function Algebro() {
         Algebro
       </h1>
       <div className="space-y-6">
-        <p className="text-lg text-slate-700 leading-relaxed">
-          Algebro is a personal project that I founded and developed to address
-          gaps in middle-school math education. It is a web-based learning
-          platform that combines interactive curriculum, guided practice, and
-          AI-supported teaching tools to help students learn algebra concepts
-          more effectively. The platform is built with a full-stack modern web
-          environment and includes features such as dynamic lessons, automated
-          feedback, progress tracking, and classroom management tools for
-          teachers.
-        </p>
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 space-y-4">
+          <p className="text-lg text-slate-700 leading-relaxed">
+            Algebro is a personal project that I founded and developed to address
+            gaps in middle-school math education. It is a web-based learning
+            platform that combines interactive curriculum, guided practice, and
+            AI-supported teaching tools to help students learn algebra concepts
+            more effectively. The platform is built with a full-stack modern web
+            environment and includes features such as dynamic lessons, automated
+            feedback, progress tracking, and classroom management tools for
+            teachers.
+          </p>
 
-        <p className="text-lg text-slate-700 leading-relaxed">
-          I am currently piloting Algebro in local middle schools, gathering
-          real classroom feedback from students and teachers. The goal of the
-          pilot is to measure the platform's impact on student performance,
-          refine the curriculum, and improve the overall user experience. Early
-          feedback has been positive, and I am actively working toward signing
-          paid school contracts in the fall based on the pilot results.
-        </p>
+          <p className="text-lg text-slate-700 leading-relaxed">
+            I am currently piloting Algebro in local middle schools, gathering
+            real classroom feedback from students and teachers. The goal of the
+            pilot is to measure the platform's impact on student performance,
+            refine the curriculum, and improve the overall user experience. Early
+            feedback has been positive, and I am actively working toward signing
+            paid school contracts in the fall based on the pilot results.
+          </p>
 
-        <p className="text-lg text-slate-700 leading-relaxed">
-          Alongside school partnerships, I also plan to launch parent accounts,
-          which will allow families to access the platform independently and use
-          Algebro as a supplemental learning tool at home. The long-term vision
-          is to create a scalable and affordable math-learning solution that
-          benefits both schools and individual learners.
-        </p>
+          <p className="text-lg text-slate-700 leading-relaxed">
+            Alongside school partnerships, I also plan to launch parent accounts,
+            which will allow families to access the platform independently and use
+            Algebro as a supplemental learning tool at home. The long-term vision
+            is to create a scalable and affordable math-learning solution that
+            benefits both schools and individual learners.
+          </p>
 
-        <p className="text-lg text-slate-700 leading-relaxed">
-          You can visit the platform at{" "}
-          <a
-            href="https://algebro.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 underline font-medium"
-          >
-            algebro.ai
-          </a>
-          . Please note that I will not provide account login details for
-          security purposes, as the platform contains real student and teacher
-          data from active pilot classrooms.
-        </p>
+          <p className="text-lg text-slate-700 leading-relaxed">
+            You can visit the platform at{" "}
+            <a
+              href="https://algebro.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline font-medium"
+            >
+              algebro.ai
+            </a>
+            . Please note that I will not provide account login details for
+            security purposes, as the platform contains real student and teacher
+            data from active pilot classrooms.
+          </p>
+        </div>
 
         <div className="mt-12 space-y-12">
           <div>
